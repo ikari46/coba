@@ -1,0 +1,57 @@
+//class Mobil
+//{
+//    //atribut
+//    public string warna;
+//    public bool menyala = true;
+
+//    //constructor
+//    public Mobil(string warnaMobil)
+//    {
+//        this.warna = warnaMobil;
+//        //Console.WriteLine("Mobil melaju dengan cepat");
+//        Console.WriteLine($"Mobil {this.warna} melaju dengan cepat");
+//    }
+
+//    //method
+//    public void TancapGas()
+//    {
+//        string warna = "kuning";
+//        //apabila tidak memakai this, warna akan bernilai
+//        //Console.WriteLine($"Mobil {warna} melaju dengan cepat");
+//    }
+//}
+
+class Matematika
+{
+    public static double PI = 3.14;
+
+    public static int Penambahan(int angka1, int angka2)
+    {
+        return angka1 + angka2;
+    }
+}
+class Program
+{
+    static void Main(string[] args)
+    {
+        //        Mobil mobilA = new Mobil("Merah");
+        //        Mobil mobilB = new Mobil("");
+
+        //        // mobil.warna = "Merah"; // "Abu-abu" diubah menjadi "Merah"
+        //        // mobil.menyala = false; // true diubah menjadi false
+
+        //        Console.WriteLine(mobilA.warna);
+        //        // output: Abu-abu
+        //        Console.WriteLine(mobilB.menyala);
+        //        // output: True
+
+        //        //memanggil method
+        //        //mobilA.tancapgas();
+
+        Console.WriteLine(Matematika. PI);
+        Console.WriteLine(Matematika.Penambahan(7, 3));
+    }
+}
+
+
+
